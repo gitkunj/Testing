@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/Background.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 780px;
+  width: 1160px;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.left-section {
+  background-color: rgb(8, 75, 62);
+  padding: 33px 51px;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-section p {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 550;
+  color: rgb(249, 226, 186);
+  max-width: 350px;
+  align-items: bottom;
+}
+
+.right-section {
+  padding: 50px;
+  background: white;
+  padding: 55px 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+}
+
+.right-section h2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  max-width: 421px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 450px;
+}
+
+.signup-form input {
+  line-height: 24px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  padding: 15px;
+  border: transparent;
+  border-bottom: 1px solid !important;
+  font-size: 17px;
+  outline: transparent;
+  margin-bottom: 1.5rem;
+  height: 0rem;
+}
+
+.signup-form label {
+  position: relative;
+  font: bold;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 1.5rem;
+  letter-spacing: 0.207px;
+  top: 22px;
+  color: #343434;
+}
+
+.signup-form button {
+  padding: 24px 43px;
+  background-color: rgb(0, 195, 139);
+  width: 450px;
+  height: 76px;
+  font-weight: 600;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  font-size: 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #17a547;
+}
+
+.right-section a {
+  text-decoration: underline;
+  color: #17a547;
+}
+
+.right-section a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 14px;
+}
